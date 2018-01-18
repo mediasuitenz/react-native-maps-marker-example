@@ -1,0 +1,17 @@
+{
+  "name": "test-map",
+  "version": "0.0.0",
+  "description": "Hello Expo!",
+  "author": null,
+  "private": true,
+  "main": "main.js",
+  "dependencies": {
+    "expo": "17.0.0",
+    "react": "16.0.0-alpha.6",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-17.0.0.tar.gz",
+    "react-native-maps": "0.16.3"
+  },
+  "devDependencies": {
+    "exp": "44.0.0"
+  }
+}

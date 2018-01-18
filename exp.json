@@ -1,0 +1,33 @@
+{
+  "name": "test-map",
+  "description": "An empty new project",
+  "slug": "test-map",
+  "privacy": "public",
+  "sdkVersion": "17.0.0",
+  "version": "1.0.0",
+  "orientation": "portrait",
+  "primaryColor": "#cccccc",
+  "icon": "./assets/icons/app.png",
+  "loading": {
+    "icon": "./assets/icons/loading.png",
+    "hideExponentText": false
+  },
+  "packagerOpts": {
+    "assetExts": ["ttf", "mp4"]
+  },
+  "ios": {
+    "supportsTablet": true,
+    "bundleIdentifier": "nz.co.mediasuite.map-test",
+    "config": {
+      "googleMapsApiKey": ""
+    }
+  },
+  "android": {
+    "package": "nz.co.mediasuite.map-test",
+    "config": {
+      "googleMaps": {
+        "apiKey": ""
+      }
+    }
+  }
+}
